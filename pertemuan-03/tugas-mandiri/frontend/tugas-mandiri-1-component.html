@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa - Ismawati ♡</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            padding: 35px 15px;
+            font-family: "Trebuchet MS", Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe4ef, #fff5f8, #ffd6e7);
+            color: #8f4265;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .title {
+            color: #d94f87;
+            font-size: 36px;
+            margin: 0 0 10px;
+            text-shadow: 2px 3px 0 #ffc4dc;
+        }
+
+        .subtitle {
+            color: #b66a8b;
+            margin: 0 0 28px;
+            font-size: 15px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 360px;
+            margin: 0 auto;
+            padding: 30px 24px;
+            background: rgba(255, 255, 255, 0.9);
+            border: 3px solid #ffc5dd;
+            border-radius: 28px;
+            box-shadow: 0 12px 30px rgba(216, 91, 143, 0.18);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 18px 35px rgba(216, 91, 143, 0.25);
+        }
+
+        .photo {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #ffb6d2;
+            padding: 4px;
+            background: #fff0f6;
+            margin-bottom: 12px;
+        }
+
+        .name {
+            color: #d94f87;
+            margin: 8px 0;
+            font-size: 27px;
+        }
+
+        .nim {
+            display: inline-block;
+            background: #fff0f6;
+            color: #a65378;
+            padding: 9px 15px;
+            border-radius: 20px;
+            margin: 8px 0 22px;
+            font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #ff8fbd, #e75491);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            box-shadow: 0 5px 0 #cc477e;
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #f46ca5, #d83f82);
+            transform: translateY(-2px);
+            box-shadow: 0 7px 0 #cc477e;
+        }
+
+        .btn:active {
+            transform: translateY(3px);
+            box-shadow: 0 2px 0 #cc477e;
+        }
+
+        .decoration {
+            margin-top: 22px;
+            color: #d94f87;
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+
+        .footer {
+            margin-top: 18px;
+            font-size: 13px;
+            color: #b66a8b;
+        }
+
+        @media (max-width: 360px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            .title {
+                font-size: 28px;
+            }
+
+            .card {
+                padding: 24px 16px;
+            }
+
+            .photo {
+                width: 110px;
+                height: 110px;
+            }
+
+            .name {
+                font-size: 23px;
+            }
+
+            .nim {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">♡ Profil Mahasiswa ♡</h1>
+        <p class="subtitle">Welcome to my little corner! 🌷</p>
+
+        <div class="card">
+            <img
+                class="photo"
+                src="Foto Profile.jpeg"
+                alt="Foto Profil Ismawati"
+            >
+
+            <h2 class="name">Ismawati ♡</h2>
+
+            <p class="nim">🎀 NIM: 2024520008</p>
+            <br>
+
+            <a href="#" class="btn">♡ Lihat Profil ♡</a>
+        </div>
+
+        <div class="decoration">✿ ♡ ✧ ♡ ✿</div>
+
+        <p class="footer">Made with love by Ismawati 💗</p>
+    </div>
+</body>
+</html>
+```
